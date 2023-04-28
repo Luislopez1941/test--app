@@ -1,0 +1,26 @@
+.main1 {
+
+}
+
+.container1 {
+    display: flex;
+    width: 100%;
+
+   
+}
+
+.main__container1 {
+    width: 90%;
+    margin: 0 auto;
+    
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container1 {
+        display: block;
+    }
+    
+}

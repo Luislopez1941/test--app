@@ -1,0 +1,21 @@
+:root {
+    --color-white: white;
+    --color-white-from: white;
+    --color-purpe: #3841F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+input {
+    touch-action: none;
+}
+
