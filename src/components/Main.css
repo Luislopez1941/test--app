@@ -20,7 +20,8 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    
 }
 
 .left__uno {
@@ -47,6 +48,7 @@
     width: 50%;
     display: flex;
     align-items: center;
+  
     
 }
 
@@ -79,62 +81,43 @@
     
     .main1 {
         display: block;
+        margin-top: 100px;
     }
     .left {
         width: 90%;
         display: flex;
         justify-content: center;
+        
+      
       
         
     }
     .right {
         width: 90%;
         margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
         
     }
-
-    .container__rigth div {
-        width: 100%;
-        
-    }
-
-    .main2 {
-        display: grid;
-        height: auto;
-        margin-top: 100px;
-     
-        
-    }
-
-    .left2 {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        order: 1;
-    
-        
-
+    .container__right {
+        height: 100%;
       
     }
 
-    .right2 {
+    .container__right div {
         width: 100%;
-        display: block;
-        justify-content: center;
-       
-    }
-    .img {
-        width: 300px;
         
     }
-    .container__left2 {
-        text-align: center;
-        width: 90%;
-        align-items: center;
+
+    .container__right h2 {
+        margin-bottom: 15px;
+    }
+
+    .container__right p {
        
     }
+
+
     
     
 }
